@@ -40,10 +40,37 @@ video {
     z-index: 2;
 }
 .showcase header {
-
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+padding: 4rem 10rem;
+z-index: 1000;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.logo {
+    text-transform: uppercase;
+    cursor: pointer;
 }
 .toggle {
-    
+    background-image: url(../assets/menu-24px.svg);
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    object-fit: cover;
+    background-position: center;
+    cursor: pointer;
+    position: relative;
+}
+.toggle.active {
+    background-image: url(../assets/times-solid.svg);
+    background-repeat: no-repeat;
+    background-size: 2.5rem;
+    background-position: center;
+    object-fit: cover;
 }
 .menu {
     
