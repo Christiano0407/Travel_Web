@@ -110,7 +110,24 @@ justify-content: space-between;
     font-size: 1.1em;
     margin: 2rem 0;
     font-weight: 400;
+    min-width: 700px;
 }
-.menu {
+.text a {
+    display: inline-block;
+    font-size: 1em;
+    background-color: var(--clr-one);
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #111;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.text a:hover {
+    color: var(--clr-one);
+}
+/* .menu {
     
-}
+} */
