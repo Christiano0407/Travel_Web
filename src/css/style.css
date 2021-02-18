@@ -38,6 +38,7 @@ video {
     background-color: #111;
     color: var(--clr-one);
     z-index: 2;
+    transition: 0.8s;
 }
 .showcase.active {
     right: 300px;
@@ -176,4 +177,18 @@ justify-content: space-between;
 }
 .menu ul li a:hover {
     color: #c9c8c8;
+}
+
+/*Mediaqueries*/
+@media screen and (max-width:798px) {
+   
+    .showcase, .showcase header {
+        padding: 40px;
+    }
+    .text h2 {
+        font-size: 3em;
+    }
+    .text h3 {
+        font-size: 2em;
+    }
 }
