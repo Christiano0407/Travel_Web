@@ -36,3 +36,6 @@ video {
 .text h3 {
     font-size: 2em;
 }
+.text p {
+    min-width: 250px;
+}
